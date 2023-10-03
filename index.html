@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ali Moustafa</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Ali</a>
+        <nav class="nav">
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <section class="main" id="home">
+        <div>
+            <h2>Hello, I,m Ali<br><span>Graphic Designer and Video Editor</span></h2>
+            <h3>I Create Visually Stunning and Effective Designs and Videos</h3>
+            <a href="#projects" class="main-button">View My Work</a>
+            <a href="#" download class="main-button2"> <i class="fa-solid fa-circle-arrow-down"></i> Download CV</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/ali-moustafa2000"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/ali.moustafa_2000/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.behance.net/AliMoustafa2000"><i class="fa-brands fa-behance"></i></a>
+                <a href="https://www.youtube.com/c/AliMoustafa_2000"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://github.com/alimoustafa2000"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/About Photo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Ali Moustafa, a Medical student at Al-Azhar Medical School in Cairo, I am dedicated to 
+                        learning about the latest developments in healthcare and am passionate about making a positive 
+                        impact in the lives of others. In addition to my studies, I have three years of experience as a 
+                        freelancer in the fields of graphic design and video editing, utilizing my skills in Adobe 
+                        Creative Suite to create visually stunning and effective designs and videos. I am also interested 
+                        in learning programming and am always looking to learn and grow as a professional. I am excited 
+                        to connect with others in my industry and explore new opportunities for growth.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents  active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphic Design</span><br>Adobe Photoshop - Adobe Illustrator</li>
+                            <li><span>Video Editing</span><br>Adobe Premiere Pro</li>
+                            <li><span>Motion Graphic</span><br>Adobe After Effects</li>
+                            <li><span>Programming</span><br>Python - HTML - CSS</li>
+                            <li><span>Online productivity tools</span><br>Notion</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jul 2019 - Present</span><br>Freelancer Graphic Designer</li>
+                            <li><span>Jan 2020 - Present</span><br>Freelancer Video Editor</li>
+                            <li><span>Apr 2022 - Oct 2022</span><br>Software Engineer Intern at "Kalbonyan Elmarsos</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2024</span><br>Bachelor Of Medicine & Surgery "MBBCH" Degree</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-paintbrush"></i>
+                </div>
+                <div class="info">
+                    <h3>Graphic Design</h3>
+                    <p>Create Visually Stunning and Effective Designs</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-video"></i>
+                </div>
+                <div class="info">
+                    <h3>Video Editing</h3>
+                    <p>Create Visually Stunning and Effective Videos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/1.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Graphic Design</p>
+                    <strong class="project-title">
+                        <span>Logo Design</span>
+                        <a href="https://www.behance.net/gallery/106280059/LogoFolio" class="more-details">See Full Project</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/2.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Graphic Design</p>
+                    <strong class="project-title">
+                        <span>Social Media</span>
+                        <a href="https://www.behance.net/gallery/106283593/SOCIAL-MEDIA" class="more-details">See Full Project</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/3.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Graphic Design</p>
+                    <strong class="project-title">
+                        <span>New Comers</span>
+                        <a href="https://www.behance.net/gallery/106282975/New-Comers-of-Al-Azhar-Medicine-2021" class="more-details">See Full Project</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/4.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Graphic Design</p>
+                    <strong class="project-title">
+                        <span>AMSA CI</span>
+                        <a href="https://www.behance.net/gallery/106279077/AMSA-Corporate-Identity" class="more-details">See Full Project</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/v1.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Video Editing</p>
+                    <strong class="project-title">
+                        <span>Jewellery</span>
+                        <a href="https://youtu.be/7VLCzwaYKWc?si=k5KR2rnh4_MtvEpz" class="more-details">See Full Project</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/v2.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Video Editing</p>
+                    <strong class="project-title">
+                        <span>youtube Intro</span>
+                        <a href="https://youtu.be/zh3aV_iIZWM?si=zg3jjzzq_ppTtDsT" class="more-details">See Full Project</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/v3.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Video Editing</p>
+                    <strong class="project-title">
+                        <span>ERC-NC</span>
+                        <a href="https://youtu.be/ER7IyGb-R4w?si=K_rXtnv8lr88S9_3" class="more-details">See Full Project</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/v4.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Video Editing</p>
+                    <strong class="project-title">
+                        <span>IFMSA-ASIA</span>
+                        <a href="https://youtu.be/EFdbQFBUA2c?si=opoWMqyHBzCIu1Bq" class="more-details">See Full Project</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Let's Work Together</h1>
+                    <div class="content">
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="info">
+                                <h3>Phone</h3>
+                                <p>+201022736492</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="info">
+                                <h3>Email</h3>
+                                <p>amoustafa277@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right"></div>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit-button">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-title">Made With <i class="fa-solid fa-heart"></i> By Ali Moustafa © 2023</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ali-moustafa2000"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/ali.moustafa_2000/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.behance.net/AliMoustafa2000"><i class="fa-brands fa-behance"></i></a>
+            <a href="https://www.youtube.com/c/AliMoustafa_2000"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/alimoustafa2000"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz0TN6ss8wvfDW_S6BCUg_OSxR8EHlQ4iF-02qbeze4ijvUxGl0UH-jWGmV5tmNHA4uOA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },1000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+</html>
