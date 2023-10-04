@@ -1,7 +1,7 @@
 # My-Personal-Portfolio
 My personal portfolio website built with HTML and CSS.
 
-### Website Preview
+## Website Preview
 <p align="center"> 
   <kbd>
     <a href="https://alimoustafa2000.github.io/My-Personal-Portfolio/" target="_blank"><img src="images\Website Preview.jpg">
