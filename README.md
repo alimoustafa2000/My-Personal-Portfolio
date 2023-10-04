@@ -19,6 +19,6 @@ My personal portfolio website built with HTML and CSS.
 ✔️ About me\
 ✔️ Services\
 ✔️ Projects\
-✔️ Contact Info\
+✔️ Contact Info
 
 To view a live example, **[click here](https://alimoustafa2000.github.io/My-Personal-Portfolio/)**
