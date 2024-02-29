@@ -577,6 +577,7 @@ nav .fa-solid {
 @media (max-width: 991px) {
 
     .main .container{
+        padding-top: 100px;
         flex-direction: column-reverse;
         justify-content: center;
     }
@@ -592,7 +593,7 @@ nav .fa-solid {
     }
 
     .main .container .background img {
-        width: 200px;
+        width: 400px;
         height: auto;
     }
 
