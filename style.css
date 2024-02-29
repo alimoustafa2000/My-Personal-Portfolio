@@ -607,6 +607,10 @@ nav .fa-solid {
         height: auto;
     }
 
+    .main .go-down {
+        display: none;
+    }
+
     .main-button {
         margin-bottom: 15px; 
     }
@@ -680,6 +684,12 @@ nav .fa-solid {
 }
 
 @media (max-width: 393px) {
+
+    .main .container .background img {
+        width: 250px;
+        height: auto;
+    }
+
     .main-button {
         margin-bottom: 15px; 
     }
