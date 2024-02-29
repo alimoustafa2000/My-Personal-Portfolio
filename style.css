@@ -96,7 +96,6 @@ section {
     position: relative;
     width: 600px;
     animation: up-and-down 5s linear infinite;
-    /* z-index: 2; */
 }
 
 .main h2 {
