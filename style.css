@@ -592,8 +592,12 @@ nav .fa-solid {
     }
 
     .main .container .background img {
-        width: 400px;
+        width: 300px;
         height: auto;
+    }
+
+    .main .go-down {
+        display: none;
     }
 }
 
