@@ -538,7 +538,6 @@ nav .fa-solid {
     }
 
     .main .container{
-        padding-top: 100px;
         flex-direction: column-reverse;
         justify-content: center;
     }
@@ -578,7 +577,6 @@ nav .fa-solid {
 @media (max-width: 991px) {
 
     .main .container{
-        padding-top: 100px;
         flex-direction: column-reverse;
         justify-content: center;
     }
@@ -588,6 +586,7 @@ nav .fa-solid {
     }
 
     .main .container .background {
+        margin-top: 200px;
         text-align: center;
         width: fit-content;
         margin-bottom: 20px;
