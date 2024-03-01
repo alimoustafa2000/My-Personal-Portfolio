@@ -13,7 +13,7 @@
 header {
     background-color: #f0f0f0;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -586,7 +586,7 @@ nav .fa-solid {
     }
 
     .main .container .background {
-        margin-top: 100px;
+        /* margin-top: 100px; */
         text-align: center;
         width: fit-content;
         margin-bottom: 20px;
